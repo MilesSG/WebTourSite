@@ -40,33 +40,33 @@
 ### 安装步骤
 
 1. 克隆项目到本地：
-\`\`\`bash
-git clone [项目地址]
+```bash
+git clone https://github.com/MilesSG/WebTourSite.git
 cd WebTourSite
-\`\`\`
+```
 
 2. 安装依赖：
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. 启动开发服务器：
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 4. 在浏览器中访问：
-\`\`\`
+```
 http://localhost:5173
-\`\`\`
+```
 
 ### 构建生产版本
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
-构建后的文件将生成在 \`dist\` 目录中。
+构建后的文件将生成在 `dist` 目录中。
 
 ## 📱 兼容性
 
@@ -76,7 +76,7 @@ npm run build
 
 ## 🎨 项目结构
 
-\`\`\`
+```
 WebTourSite/
 ├── public/              # 静态资源
 ├── src/
@@ -90,7 +90,7 @@ WebTourSite/
 ├── index.html          # HTML 模板
 ├── package.json        # 项目配置
 └── vite.config.js      # Vite 配置
-\`\`\`
+```
 
 ## 📝 开发规范
 
@@ -102,9 +102,9 @@ WebTourSite/
 ## 🤝 贡献指南
 
 1. Fork 本项目
-2. 创建您的特性分支 (\`git checkout -b feature/AmazingFeature\`)
-3. 提交您的更改 (\`git commit -m 'Add some AmazingFeature'\`)
-4. 推送到分支 (\`git push origin feature/AmazingFeature\`)
+2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 打开一个 Pull Request
 
 ## 📄 许可证
